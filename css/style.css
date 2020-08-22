@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: Sora, Helvetica, Arial, sans-serif; }
+  body header {
+    display: flex;
+    padding: 0.5rem; }
+    body header i {
+      margin: 0.5rem; }
+    body header h2 {
+      margin: 1rem 0 0 0.5rem; }
+  body .main {
+    height: 83vh; }
+    body .main h3 {
+      padding: 1rem; }
+    body .main .butt-container {
+      display: flex;
+      justify-content: space-around;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); }
+    body .main .butt {
+      cursor: pointer;
+      width: 17%; }
+      body .main .butt h5 {
+        padding: 0.5rem; }
+      body .main .butt svg {
+        width: 100%;
+        display: block; }
+      body .main .butt audio {
+        display: none; }
+
+footer {
+  height: 50px;
+  padding: 0.5rem; }
+  footer i {
+    color: red; }
+
+@media screen and (max-width: 600px) {
+  .butt-container {
+    background: #333; } }
