@@ -40,7 +40,3 @@ footer {
   padding: 0.5rem; }
   footer i {
     color: red; }
-
-@media screen and (max-width: 600px) {
-  .butt-container {
-    background: #333; } }
